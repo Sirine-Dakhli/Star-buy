@@ -175,7 +175,6 @@ export default {
     display: block;
     margin: auto;
 }
-
 .hero-section .sub-heading{
     margin-top: 10px;
     text-align: center;
