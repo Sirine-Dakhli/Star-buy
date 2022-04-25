@@ -114,7 +114,8 @@ router.get("/dd",(req, res)=>{
 router.post('/getUserinfo',(req, res)=>{
   const email = req.body.email
   getUserName(email,(err, result)=>{
-    if(err){res.send(err)}res.json([result[0].username , result[0].image])
+    if(err){res.send(err)}
+    res.json([result[0].username , result[0].image])
   })
 })
 

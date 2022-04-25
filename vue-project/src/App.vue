@@ -6,8 +6,10 @@ import Card from "./components/Card.vue"
 import ReviewList from "./components/ReviewList.vue"
 import Navbar from "./components/Navbar.vue"
 import UnderNav from "./components/UnderNav.vue"
-import Accessories from "./components/Accessories.vue"
-import Adminpart from "./components/Adminpart.vue"
+
+// import Accessories from "./components/Accessories.vue"
+// import Adminpart from "./components/Adminpart.vue"
+
 
 </script>
 
@@ -17,11 +19,13 @@ import Adminpart from "./components/Adminpart.vue"
 
 
 <Footer/>
- <!-- <Signin/> 
- <Signup/>  -->
- <!-- <Review/>
- <ReviewList/> -->
- <!-- <Card/> -->
+  <Signin/> 
+  
+ <Signup/> 
+  <Review/>
+ <ReviewList/>
+  
+  <Card/> 
 </template>
 
 <style>
