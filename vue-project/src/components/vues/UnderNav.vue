@@ -1,6 +1,6 @@
 <template>
 <div>
-  <div>
+  <div >
     <nav class="tapnavv">
       <div class="tapi">
         <img src="/images/sale.png" class="brandis" alt="" />
@@ -38,7 +38,12 @@ export default{
     Card,
      Accessories
   },
+<<<<<<< HEAD
     name:"UnderNav",
+=======
+    name:"UnderNav", 
+ 
+>>>>>>> 26d068c259e1336687d54c47b56962c94b8b439b
 }
 </script>
 <style>
